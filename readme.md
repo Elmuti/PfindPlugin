@@ -20,4 +20,23 @@ Documentation comes within as well.
 Have Issues? Please [PM me on Roblox](http://www.roblox.com/users/1729279/profile).  
 
 
-Newest version: 3.0
+## Update / Change Log
+
+#### Version 3.0 [BETA]
+- Rewrote all UI related code
+- Any drawn lines are now Enum.Material.Neon
+- Bugfixes
+
+#### Version 2.7 [STABLE]
+- New UI
+- Bugfixes
+
+#### Version 2.2 [STABLE]
+- Bugfixes
+
+#### Version 2.02 [STABLE]
+- Rewrote main plugin framework
+- "Clutter toggle" -tool
+- "Show IDs" -tool
+- "Show Connections" -tool
+- Bugfixes
