@@ -1,3 +1,5 @@
+http://i.imgur.com/1MY401e.png
+
 The plugin itself can be found [here](http://www.roblox.com/A-Pathfinding-System-v2-02-item?id=207049192)
 
 
