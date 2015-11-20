@@ -1,8 +1,9 @@
 ![Plugin Icon](http://i.imgur.com/1MY401e.png)
 ## Roblox A* Pathfinding Tools (v.3.0)
 
-The latest stable release of the plugin can be found [here](http://www.roblox.com/A-Pathfinding-System-v2-02-item?id=207049192)
-The latest experimental release of the plugin can be found [here](http://www.roblox.com/A-Pathfinding-System-EXPERIMENTAL-item?id=313444087)
+The latest **stable release** of the plugin can be found [here](http://www.roblox.com/A-Pathfinding-System-v2-02-item?id=207049192)
+
+The latest **experimental release** of the plugin can be found [here](http://www.roblox.com/A-Pathfinding-System-EXPERIMENTAL-item?id=313444087)
 
 
 [Video of Usage](https://www.youtube.com/watch?v=2rF8iyOesL0)
