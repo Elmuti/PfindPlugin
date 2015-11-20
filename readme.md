@@ -1,4 +1,9 @@
+The plugin itself can be found [here](http://www.roblox.com/A-Pathfinding-System-v2-02-item?id=207049192)
+
+
 [Video of Usage](https://www.youtube.com/watch?v=2rF8iyOesL0)
+
+
 
 Includes a node based pathfinding modulescript library, and plugins for 
 - Node placing
