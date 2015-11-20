@@ -34,8 +34,29 @@ Have Issues? Please [PM me on Roblox](http://www.roblox.com/users/1729279/profil
 - Bugfixes
 
 #### Version 2.02 [STABLE]
-- Rewrote main plugin framework
 - "Clutter toggle" -tool
 - "Show IDs" -tool
 - "Show Connections" -tool
 - Bugfixes
+
+#### Version 2.0 [DEPRECATED]
+- Rewrote main plugin framework
+- Added UI elements
+- Bugfixes
+
+#### Version 1.9 [DEPRECATED]
+- Added UI elements
+- Bugfixes
+
+#### Version 1.5 [DEPRECATED]
+- Added "Recalculate Nodegraph" -tool
+- Bugfixes
+
+#### Version 1.2 [DEPRECATED]
+- Added "Install module" -tool
+- Added "Remove nodes" -tool
+- Added "Disconnect nodes" -tool
+- Bugfixes
+
+
+
