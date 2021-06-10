@@ -68,7 +68,7 @@ function isConnected(a, b)
 	
 	local firstRayPos = pos1 + humanHull[1]
 	local ray = newRay(firstRayPos, pos1, 10)
-	local firstRayHit = workspace:FindPartOnRayWithIgnoreList(ray, {ignore, workspace.Map.Entities, workspace.Map.Spawns})
+	local firstRayHit = workspace:FindPartOnRayWithIgnoreList(ray, {ignore})
 	
 	--gui.DrawLine(pos1, firstpos, BrickColor.new("Bright red"))
 	
@@ -76,7 +76,7 @@ function isConnected(a, b)
 		for hullpos = 1, #humanHull do
 			local origin =  pos1 + humanHull[hullpos]
 			local ray = newRay(origin, pos2, 100)
-			local hit = workspace:FindPartOnRayWithIgnoreList(ray, {ignore, workspace.Map.Entities, workspace.Map.Spawns})
+			local hit = workspace:FindPartOnRayWithIgnoreList(ray, {ignore})
 			
 			--gui.DrawLine(origin, pos)
 			
@@ -97,10 +97,8 @@ end
 function connectNodes(nodes)
 	local amount = #nodes:children()
 	local bar = gui.ProgressBar("Compiling nodegraph...", 0)
-	coroutine.yield()
 	local now = tick()
 	for _, n1 in pairs(nodes:children()) do
-		coroutine.yield()
 		numNodes = numNodes + 1
 		bar:TextUpdate("Compiling nodegraph...\n"..numNodes.." / "..amount.." nodes parsed")
 		bar:Update(numNodes / amount * 100)
